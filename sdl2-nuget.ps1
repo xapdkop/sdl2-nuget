@@ -6,15 +6,15 @@
 
 # Some customisation variables
 $pkg_prefix = "" # Prefix of packages
-$pkg_postfix = ".nuget" # Postfix of packages
+$pkg_postfix = "" # Postfix of packages
 $keep_sources = $true # Use $true to keep source files or $false to delete them, $true by default
-$keep_autopkg = $true # Keep autopkg files, $false by default
+$keep_autopkg = $false # Keep autopkg files, $false by default
 $add_docs = $false # Add docs in system module, $false by default
-$pkgs_hotfix = @{ "sdl2" = ""; "sdl2_image" = ""; "sdl2_ttf" = ""; "sdl2_mixer" = ""; "sdl2_net" = "2" } # Packages hotfix version, "" by default for each module [means no hotfix]
+$pkgs_hotfix = @{ "sdl2" = ""; "sdl2_image" = ""; "sdl2_ttf" = ""; "sdl2_mixer" = ""; "sdl2_net" = "" } # Packages hotfix version, "" by default for each module [means no hotfix]
 
 # SDL2 packages variables
-$sdl2_owners =	"xapdkop" # Packages "owner" name. Replace username with your name
-$sdl2_tags = "C++ SDL2 SDL Audio Graphics Keyboard Mouse Joystick Multi-Platform OpenGL Direct3D" # Tags for your packages, "SDL2, native, CoApp" by default
+$sdl2_owners =	"" # Packages "owner" name. Insert your name here
+$sdl2_tags = "C++ SDL2 native CoApp" # Tags for your packages, "SDL2, native, CoApp" by default
 
 # SDL2 nuget packages 'generation' variables
 $sdl2_packages = "sdl2", "sdl2_image", "sdl2_ttf", "sdl2_mixer", "sdl2_net" # SDL2 packages, that will be generated
@@ -36,9 +36,7 @@ $sdl2_description = "Simple DirectMedia Layer is a cross-platform development li
 
 SDL officially supports Windows, Mac OS X, Linux, iOS, and Android. Support for other platforms may be found in the source code.
 
-SDL is written in C, works natively with C++, and there are bindings available for several other languages, including C# and Python.
-
-Source code of this package and build script are available on https://github.com/xapdkop/sdl2-nuget"
+SDL is written in C, works natively with C++, and there are bindings available for several other languages, including C# and Python."
 $sdl2_changelog = "Look at the official SDL website https://libsdl.org"
 
 # Don't change these values
