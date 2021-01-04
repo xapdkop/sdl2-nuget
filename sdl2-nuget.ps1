@@ -18,7 +18,7 @@ $sdl2_tags = "C++ SDL2 native CoApp" # Tags for your packages, "SDL2, native, Co
 
 # SDL2 nuget packages 'generation' variables
 $sdl2_packages = "sdl2", "sdl2_image", "sdl2_ttf", "sdl2_mixer", "sdl2_net" # SDL2 packages, that will be generated
-$sdl2_version = @{ "sdl2" = "2.0.10"; "sdl2_image" = "2.0.5"; "sdl2_ttf" = "2.0.15"; "sdl2_mixer" = "2.0.4"; "sdl2_net" = "2.0.1" }
+$sdl2_version = @{ "sdl2" = "2.0.14"; "sdl2_image" = "2.0.5"; "sdl2_ttf" = "2.0.15"; "sdl2_mixer" = "2.0.4"; "sdl2_net" = "2.0.1" }
 $sdl2_platforms = "x86", "x64"
 
 #########################
